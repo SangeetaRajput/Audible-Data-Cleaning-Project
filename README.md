@@ -3,7 +3,7 @@
 # Project Overview
 This project focuses on cleaning and preparing an Audible dataset to make it analysis-ready. The dataset contains audiobook and podcast-related data from Audible, an American online audiobook and podcast service. The goal of this project was to identify inconsistencies, transform data for uniformity, and ensure the dataset could support further analysis and visualization.
 
-Dataset Link: https://drive.google.com/file/d/1yjyozaSrwShoaROq-TDuSgC5HNLLmrTE/view?usp=sharing
+Dataset Link:https://drive.google.com/file/d/1yjyozaSrwShoaROq-TDuSgC5HNLLmrTE/view?usp=sharing
 
 # Data Cleaning Tasks and Applied Steps
 1. Name Standardization
@@ -26,16 +26,14 @@ Dataset Link: https://drive.google.com/file/d/1yjyozaSrwShoaROq-TDuSgC5HNLLmrTE/
 
 4. Duration Conversion
 
-&#8226; Step Applied:
-Extracted hours from the "Time" column.
+&#8226; Step Applied:Extracted hours from the "Time" column.
 Converted hours to minutes using a multiplication formula.
 
 &#8226; Explanation: The time values were transformed into a recognized Excel duration format, allowing for proper time calculations and analysis.
 
 5. Price Column Cleanup
 
-&#8226; Step Applied:
-Replaced non-numeric values (e.g., "Free") with "0."
+&#8226; Step Applied:Replaced non-numeric values (e.g., "Free") with "0."
 Changed the data type of the "Price" column to currency.
 Applied formatting to ensure all values have two decimal places.
 
@@ -45,12 +43,11 @@ Applied formatting to ensure all values have two decimal places.
 
 &#8226; Step Applied: Replaced text-based star ratings with numeric values.
 
-&#8226;Explanation: This step facilitates easier analysis and calculations of product ratings.
+&#8226; Explanation: This step facilitates easier analysis and calculations of product ratings.
 
 7. Narrator Separation
 
-&#8226; Step Applied:
-Split the "NarratedBy" column by delimiters (e.g., commas) to separate multiple narrators.
+&#8226; Step Applied:Split the "NarratedBy" column by delimiters (e.g., commas) to separate multiple narrators.
 Merged split narrator columns for clarity.
 
 &#8226; Explanation: This helps identify individual narrators when multiple are listed for a single audiobook, improving the clarity of the dataset.
@@ -62,12 +59,13 @@ Merged split narrator columns for clarity.
 &#8226; Explanation: Combining these columns provides a comprehensive view of release information and simplifies the dataset.
 
 9. Null Value Replacement
-&#8226; Step Applied:
-Replaced null values in various columns with appropriate placeholders (e.g., "Not Applicable" or "0").
+
+&#8226; Step Applied: Replaced null values in various columns with appropriate placeholders (e.g., "Not Applicable" or "0").
 
 &#8226; Explanation: This ensures there are no gaps in the dataset, improving data integrity for further analysis.
 
 # Key Excel Features Used
+
 &#8226; Power Query Editor: For column formatting, data splitting, and transformation tasks.
 
 &#8226; Text to Columns: To separate combined names and narrators.
