@@ -13,15 +13,19 @@ Dataset Link: https://drive.google.com/file/d/1yjyozaSrwShoaROq-TDuSgC5HNLLmrTE/
 &#8226; Explanation: This ensures that the product titles follow a consistent format, improving readability and data presentation.
 
 2. Author Name Separation
+
 &#8226; Step Applied: Split the "Author" column by delimiter or character transitions to separate first and last names.
 
 &#8226; Explanation: When authors’ full names were combined, the column was split into separate fields for better data organization.
 
 3. Release Date Standardization
-Step Applied: Converted the "ReleaseDate" column to a date format (DD-MM-YYYY).
-Explanation: Ensuring consistent date formats across the dataset allows for accurate analysis based on release dates.
+
+&#8226; Step Applied: Converted the "ReleaseDate" column to a date format (DD-MM-YYYY).
+
+&#8226; Explanation: Ensuring consistent date formats across the dataset allows for accurate analysis based on release dates.
 
 4. Duration Conversion
+
 &#8226; Step Applied:
 Extracted hours from the "Time" column.
 Converted hours to minutes using a multiplication formula.
@@ -29,6 +33,7 @@ Converted hours to minutes using a multiplication formula.
 &#8226; Explanation: The time values were transformed into a recognized Excel duration format, allowing for proper time calculations and analysis.
 
 5. Price Column Cleanup
+
 &#8226; Step Applied:
 Replaced non-numeric values (e.g., "Free") with "0."
 Changed the data type of the "Price" column to currency.
@@ -37,11 +42,13 @@ Applied formatting to ensure all values have two decimal places.
 &#8226; Explanation: This ensures all price entries are numeric and uniformly formatted, allowing for meaningful pricing analysis.
 
 6. Star Rating Conversion
+
 &#8226; Step Applied: Replaced text-based star ratings with numeric values.
 
 &#8226;Explanation: This step facilitates easier analysis and calculations of product ratings.
 
 7. Narrator Separation
+
 &#8226; Step Applied:
 Split the "NarratedBy" column by delimiters (e.g., commas) to separate multiple narrators.
 Merged split narrator columns for clarity.
@@ -49,8 +56,10 @@ Merged split narrator columns for clarity.
 &#8226; Explanation: This helps identify individual narrators when multiple are listed for a single audiobook, improving the clarity of the dataset.
 
 8. Merging Columns for Release Info
-Step Applied: Merged the "ReleaseDate" and "Language" columns into a new column "ReleaseInfo" with the format "DD-MM-YYYY, Language."
-Explanation: Combining these columns provides a comprehensive view of release information and simplifies the dataset.
+
+&#8226; Step Applied: Merged the "ReleaseDate" and "Language" columns into a new column "ReleaseInfo" with the format "DD-MM-YYYY, Language."
+
+&#8226; Explanation: Combining these columns provides a comprehensive view of release information and simplifies the dataset.
 
 9. Null Value Replacement
 &#8226; Step Applied:
